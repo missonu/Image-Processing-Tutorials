@@ -19,7 +19,7 @@ img3 = cv2.resize(img3,(1280,700))#width ,height
 cv2.imshow("Original Image",img3)
 print("Image in original value==\n",img3)
 
-cv2.waitKey(0)  #here parameter inside waitkey handle the life duration of an image
+cv2.waitKey(3000)  #here parameter inside waitkey handle the life duration of an image
 cv2.destroyAllWindows()
 
 
